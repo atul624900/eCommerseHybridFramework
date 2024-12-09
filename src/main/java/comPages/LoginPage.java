@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
-	int a=8;
+	char a='8';
 	public WebDriver driver;
 	
 	public LoginPage(WebDriver driver)
