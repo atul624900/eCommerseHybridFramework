@@ -30,7 +30,7 @@ public class PracticeDemo {
 		Set<String> linkId = driver.getWindowHandles();
 		Iterator<String> itr = linkId.iterator();
 		while (itr.hasNext()) {
-			int a = 7;
+			int a = 9;
 
 			System.out.println(driver.getTitle());
 		}
