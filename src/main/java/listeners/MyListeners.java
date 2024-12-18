@@ -54,7 +54,7 @@ public class MyListeners implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		
 		String testname=result.getName();
-		 ExtentTest test = report.createTest(testname);
+		  test = report.createTest(testname);
 		
 		WebDriver driver = null;
 		try {
